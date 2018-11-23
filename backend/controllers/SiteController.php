@@ -97,4 +97,13 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
+
+    /**
+     * just use to test git
+     * @return bool
+     */
+    public function actionTestGit()
+    {
+        return true;
+    }
 }
