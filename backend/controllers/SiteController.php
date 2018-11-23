@@ -100,12 +100,12 @@ class SiteController extends Controller
 
     /**
      * just use to test git
-     * @return bool
+     * @return int
      */
     public function actionTestGit()
     {
         if (1 == 1) {
-            return true;
+            echo 11111111;
         }
 
     }
