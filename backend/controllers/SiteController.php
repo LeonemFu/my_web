@@ -104,6 +104,9 @@ class SiteController extends Controller
      */
     public function actionTestGit()
     {
-        return true;
+        if (1 == 1) {
+            return true;
+        }
+
     }
 }
