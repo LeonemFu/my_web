@@ -7,6 +7,7 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
 
+
 /**
  * Site controller
  */
@@ -105,7 +106,7 @@ class SiteController extends Controller
     public function actionTestGit()
     {
         if (1 == 1) {
-            echo 11111111;
+            echo 111111;
         }
 
     }
