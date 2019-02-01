@@ -98,16 +98,4 @@ class SiteController extends Controller
 
         return $this->goHome();
     }
-
-    /**
-     * just use to test git
-     * @return int
-     */
-    public function actionTestGit()
-    {
-        if (1 == 1) {
-            echo 111111;
-        }
-
-    }
 }
