@@ -243,5 +243,9 @@ class MyConsoleController extends Controller
     	var_dump($b);
 	}
 
+	public function actionTc3(){
+
+	}
+
 }
 
